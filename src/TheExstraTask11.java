@@ -17,7 +17,7 @@ public class TheExstraTask11 {
 		scan.close();
 
 // а тут то, что нашел:
-		int i = 1243678;
+		int i = -1243678;
 		System.out.println(Integer.toBinaryString(i)); // двоичная
 		System.out.println(Integer.toOctalString(i)); // восьмиричная
 		System.out.println(Integer.toHexString(i)); // шестнадцатиричная
