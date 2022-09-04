@@ -13,7 +13,7 @@ public class TheExtraTask6 {
 				result += n % 10;
 				n /= 10;
 			}
-			System.out.print("the sum of the digits of your number is  ");
+			System.out.print("the sum of the digits of your number is ");
 			System.out.println(result);
 			result = 0;
 		}

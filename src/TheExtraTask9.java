@@ -10,5 +10,4 @@ public class TheExtraTask9 {
 		k = x / z;
 		System.out.println(k);
 	}
-
 }

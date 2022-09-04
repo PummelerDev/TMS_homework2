@@ -11,5 +11,4 @@ public class TheExtraTask4 {
 		System.out.println(Math.sqrt(x * x + y * y));
 		scan.close();
 	}
-
 }

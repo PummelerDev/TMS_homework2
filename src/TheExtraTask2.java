@@ -11,5 +11,4 @@ public class TheExtraTask2 {
 		System.out.println("final prise is " + finalSum);
 		System.out.println("your discount is " + Discount);
 	}
-
 }

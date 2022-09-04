@@ -5,6 +5,5 @@ public class TheExtraTask5 {
 		int q = 56;
 		int w = 39;
 		System.out.println(q % w);
-
 	}
 }

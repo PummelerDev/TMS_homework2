@@ -15,5 +15,4 @@ public class TheExtraTask1 {
 		System.out.println("c) final price " + (priceProduct1 * 2 * 0.9 + priceProduct2 * 3));
 
 	}
-
 }

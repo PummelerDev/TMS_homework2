@@ -15,7 +15,6 @@ public class TheExtraTask10 {
 		System.out.println(sumDouble/10);
 
 	}
-
 }
 //тип данных integer всегда округляется в меньшую сторону.
 //Смысл задания в этом?

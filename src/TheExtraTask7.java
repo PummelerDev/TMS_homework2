@@ -7,7 +7,7 @@ public class TheExtraTask7 {
 		double n = 23.5d;
 		System.out.println(n < 0 ? (int) (n - 0.5) : (int) (n + 0.5));
 
-//second version
+// second version
 		System.out.println("enter a number(use a comma. not a dot): ");
 		Scanner scan = new Scanner(System.in);
 		if (scan.hasNextDouble()) {

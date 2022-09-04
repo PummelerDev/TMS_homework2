@@ -9,5 +9,4 @@ public class TheMainTask {
 		System.out.println("Hello " + scan.nextLine());
 		scan.close();
 	}
-
 }

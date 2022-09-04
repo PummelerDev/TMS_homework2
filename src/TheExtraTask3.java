@@ -7,5 +7,4 @@ public class TheExtraTask3 {
 		System.out.print("result ");
 		System.out.println(Math.sqrt(x * x + y * y));
 	}
-
 }
