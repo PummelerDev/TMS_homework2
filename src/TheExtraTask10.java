@@ -6,16 +6,16 @@ public class TheExtraTask10 {
 		int sumInt = 0;
 		for (int i = 0; i < arrayInt.length; i++)
 			sumInt += arrayInt[i];
-		System.out.println(sumInt/10);
+		System.out.println(sumInt / 10);
 
 		double[] arrayDouble = new double[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
 		double sumDouble = 0;
 		for (int i = 0; i < arrayDouble.length; i++)
 			sumDouble += arrayDouble[i];
-		System.out.println(sumDouble/10);
+		System.out.println(sumDouble / 10);
 
 	}
 }
-//Ñ‚Ð¸Ð¿ Ð´Ð°Ð½Ð½Ñ‹Ñ… integer Ð²ÑÐµÐ³Ð´Ð° Ð¾ÐºÑ€ÑƒÐ³Ð»ÑÐµÑ‚ÑÑ Ð² Ð¼ÐµÐ½ÑŒÑˆÑƒÑŽ ÑÑ‚Ð¾Ñ€Ð¾Ð½Ñƒ.
-//Ð¡Ð¼Ñ‹ÑÐ» Ð·Ð°Ð´Ð°Ð½Ð¸Ñ Ð² ÑÑ‚Ð¾Ð¼?
+//òèï äàííûõ integer âñåãäà îêðóãëÿåòñÿ â ìåíüøóþ ñòîðîíó.
+//Ñìûñë çàäàíèÿ â ýòîì?
 //

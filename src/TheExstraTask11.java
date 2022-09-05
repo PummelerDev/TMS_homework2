@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class TheExstraTask11 {
 
 	public static void main(String[] args) {
-		// РїРѕРіСѓРіР»РёР» Рё СѓР·РЅР°Р», С‡С‚Рѕ СѓР¶Рµ РµСЃС‚СЊ РІСЃС‚СЂРѕРµРЅРЅС‹Рµ РјРµС‚РѕРґС‹ РєРѕРЅРІРµСЂС‚Р°С†РёРё.
-		// РЅРµ СѓРІРµСЂРµРЅ, С‡С‚Рѕ С†РµР»СЊ Р·Р°РґР°РЅРёСЏ Р±С‹Р»Р° РЅР°Р№С‚Рё РёС….
-		// РµСЃР»Рё С†РµР»СЊ, РІСЃРµ С‚Р°РєРё РїСЂРёРґСѓРјР°С‚СЊ СЃРІРѕРµ СЂРµС€РµРЅРёРµ, С‚Рѕ РІРѕС‚ РѕРЅРѕ:
+		// погуглил и узнал, что уже есть встроенные методы конвертации.
+		// не уверен, что цель задания была найти их.
+		// если цель, все таки придумать свое решение, то вот оно:
 
 		System.out.println("enter a nuber you need to convert from decimal to binary ");
 		Scanner scan = new Scanner(System.in);
@@ -16,12 +16,12 @@ public class TheExstraTask11 {
 		}
 		scan.close();
 
-// Р° С‚СѓС‚ С‚Рѕ, С‡С‚Рѕ РЅР°С€РµР»:
+		// а тут то, что нашел:
 		int i = 1243678;
-		System.out.println(Integer.toBinaryString(i)); // РґРІРѕРёС‡РЅР°СЏ
-		System.out.println(Integer.toOctalString(i)); // РІРѕСЃСЊРјРёСЂРёС‡РЅР°СЏ
-		System.out.println(Integer.toHexString(i)); // С€РµСЃС‚РЅР°РґС†Р°С‚РёСЂРёС‡РЅР°СЏ
-		System.out.println(Integer.parseInt("1010101110100", 2)); // РёР· РґРІРѕРёС‡РЅРѕР№ РІ РґРµСЃСЏС‚РёС‡РЅСѓСЋ
+		System.out.println(Integer.toBinaryString(i)); // двоичная
+		System.out.println(Integer.toOctalString(i)); // восьмиричная
+		System.out.println(Integer.toHexString(i)); // шестнадцатиричная
+		System.out.println(Integer.parseInt("1010101110100", 2)); // из двоичной в десятичную
 
 	}
 
@@ -30,8 +30,7 @@ public class TheExstraTask11 {
 		do {
 			result += d % 2;
 			d /= 2;
-		}
-		while (d > 0) ;
+		} while (d > 0);
 		StringBuffer resultFinal = new StringBuffer(result);
 		resultFinal.reverse();
 		System.out.println("Result is " + resultFinal);
@@ -39,8 +38,7 @@ public class TheExstraTask11 {
 
 }
 
-// РєР°Рє РёР· РґРІРѕРёС‡РЅРѕР№ РІ РґРµСЃСЏС‚РёС‡РЅСѓСЋ РїРѕРєР° РЅРµ РїСЂРёРґСѓРјР°Р».
+//как из двоичной в десятичную пока не придумал.
 //
 //
 //
-
