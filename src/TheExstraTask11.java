@@ -17,7 +17,7 @@ public class TheExstraTask11 {
 		scan.close();
 
 // а тут то, что нашел:
-		int i = -1243678;
+		int i = 1243678;
 		System.out.println(Integer.toBinaryString(i)); // двоичная
 		System.out.println(Integer.toOctalString(i)); // восьмиричная
 		System.out.println(Integer.toHexString(i)); // шестнадцатиричная
@@ -27,10 +27,11 @@ public class TheExstraTask11 {
 
 	public static void convertToBinary(int d) {
 		String result = "";
-		while (d > 0) {
+		do {
 			result += d % 2;
 			d /= 2;
 		}
+		while (d > 0) ;
 		StringBuffer resultFinal = new StringBuffer(result);
 		resultFinal.reverse();
 		System.out.println("Result is " + resultFinal);
